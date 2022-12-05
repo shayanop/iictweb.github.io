@@ -1,0 +1,229 @@
+body {
+	background-image: url(bg.JPEG);
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+
+.logo img {
+	height: 150px;
+	margin-left: 620px;
+	border-radius: 40px;
+
+}
+
+.login {
+
+	width: 300px;
+	padding: 30px;
+	position: absolute;
+	top: 20%;
+	left: 36%;
+	transform: translate(-50&, -50%);
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	border-radius: 30px;
+}
+
+.login h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.login input {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #0367fd;
+	padding: 14px 10px;
+	width: 220px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25px;
+	text-decoration: none;
+}
+
+.login input{type="submit"}{
+
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #ffc400ec;
+	padding: 14px 10px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25px;
+	text-decoration: none;
+}
+
+.login input:hover{
+	background-color: yellow;
+	color: blue;
+	text-decoration: none;
+}
+
+.login h2 {
+	font-size: 15px;
+	color: white;
+}
+
+.login h3 {
+	font-size: 15px;
+	color: white;
+}
+ 
+ .login h3:hover{
+ 	background-color: yellow;
+ 	color: black;
+ 	text-decoration: none;
+ }
+
+ .login button {
+ 	border-radius: 10px;
+ 	border-color: lightblue;
+ 	font-size: 20px;
+ 	text-decoration: none;
+ }
+
+ .login button:hover{
+ 	text-decoration: none;
+ 	background-color: yellow;
+ 	color: black;
+ 	padding-left:50px ;
+ }
+
+
+
+*{
+	margin: 0;
+	text-decoration: none;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+
+}
+
+.sidebar header {
+	margin-top: 50px;
+	margin-left: 30px;
+	border-radius: 10px;
+	height: 70px;
+}
+
+.sidebar ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(225,225,225,1);
+	border-bottom: 1px solid black;
+	transition: .4s;
+}
+
+ul li:hover a{
+	padding-left:50px ;
+}
+
+.sidebar h1{
+	color: grey;
+	margin-top: 100px;
+	margin-left: 30px;
+	font-size: 18px;
+}
+
+.sidebar ul a i{
+	margin-right: 16px;
+}
+
+
+.sidebar header input {
+	border-radius: 10px;
+	height: 30px;
+}
+
+.images img {
+	margin-top: 50px;
+	margin-left: 350px;
+    border-radius: 30px;	
+
+}
+
+.images h1{
+	margin-left: 800px;
+	font-weight: bold;
+	color: white
+
+}
+
+.images img:hover {
+  background-color: yellow;
+  color: black;
+  margin-right: 16px;
+  padding-left:50px ;
+}
+
+.item img{
+    margin-left: 200px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.item h1{
+	margin-left: 750px;
+	font-weight: bold;
+	color: white;
+}
+
+.item h2 {
+	margin-top: 40px;
+	margin-left: 830px;
+	border-color: blue;
+	border-radius: 15px;
+	background-color: blue;
+	width: 110px;
+	color: white;
+
+}
+
+.item h2:hover{
+ 	text-decoration: none;
+ 	background-color: yellow;
+ 	color: black;
+ 	padding-left:50px ;
+ }
+
+ .item img:hover{
+	background-color: yellow;
+	color: blue;
+	text-decoration: none;
+	padding-left:50px ;
+}
+
+
+
+.sidebar p {
+	color: grey;
+	margin-top: 10px;
+	
+	margin-left: 40px;
+}
